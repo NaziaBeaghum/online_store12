@@ -1,0 +1,168 @@
+ .header
+{   max-width: 100vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color:#3b3b30;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+
+.header_logo>img
+{
+   
+    object-fit: contain;
+    margin: 10px;
+    
+	width: 150px;
+	height: 34px;
+
+    
+    
+}
+
+.header_locator
+{
+color: white;
+margin-left: 5px;
+margin-right: 15px;
+display: flex;
+margin-top: 10px;
+}
+
+
+
+.header_search
+{
+display: flex;
+flex: 1 ;
+
+
+align-items: center;
+
+}
+
+.header_searchbox
+
+{
+ display: flex;
+ align-items: center;
+ 
+}
+
+
+.input_field
+{
+    height: 31px;
+   margin-top: 8px;
+   width: 640px;
+   border: none;
+   margin-left: 20px;
+    
+    
+}
+
+
+.search_icon
+{
+    color: white;
+    background-color: #cd9042;
+    border-radius: 0px 5px 5px 0px;
+    padding: 5px;
+    height: 24px !important;
+    width:23px;
+    margin-top: 10px;
+    
+
+}
+.header_dropdown
+{
+    height: 33px;
+    background-color: #cd9042;
+    border: none;
+    margin-top: 8px;
+    background-color: #e6e5e5;
+    border-radius: 5px 0px 0px 5px;
+    text-align-last: center;
+}
+
+
+.header_nav
+{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+
+.nav_select
+{
+    margin-right: 10px;
+margin-left: 10px;
+color:white;
+display: flex;
+flex-direction: column;
+}
+
+.select_firstline
+{
+font-size: 10px;
+}
+
+.select_secondline
+{
+font-size: 12px;
+font-weight: 800;
+
+}
+
+.option_basket
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+margin-left: 40px;
+}
+
+.shopping_cart
+{
+    width: 50px;
+    color: white;
+    
+}
+.cart_value
+{
+margin-left: 4px;
+
+}
+@media screen and (max-width:500px)
+            {
+            .header{
+                width:100vw;
+            }
+            .search_icon{
+                width:13px;
+                height: 10px;
+            }
+
+                
+
+            .input_field
+            {
+                height: 31px;
+            margin-top: 8px;
+            width: 100px;
+            border: none;
+            margin-left: 0%;
+                
+                
+            }
+            .option_basket
+            {
+                margin-left: 0%;
+            }
+
+                
+            }

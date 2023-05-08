@@ -1,0 +1,70 @@
+.payment{
+background-color:white;
+height: 100vh;
+width: 100%;
+display: flex;
+justify-content: space-between;
+
+}
+
+.payment_container
+{
+    margin: 30px;
+}
+
+
+
+
+
+.payment_heading{
+    background-color:gray;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    width: 100vw
+
+}
+.payment_address
+{
+    display: flex;
+    padding: 20px;
+    
+}
+
+.payment_address>p{
+    padding-left: 20px;
+}
+
+.payment_review
+
+{
+    padding-left: 20px;
+}
+
+.No_items
+{
+    padding: 10px;
+    font-weight: 400;
+    font-weight: bolder;
+    
+}
+
+.payment_method
+{
+    margin: 30px;
+
+}
+
+.checkout_list
+{
+    text-align: center;
+}
+
+@media screen and (max-width:400px){
+
+    .payment_container
+{
+    margin: 20px;
+}
+    
+}

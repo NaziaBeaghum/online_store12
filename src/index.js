@@ -4,10 +4,28 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import Stateprovider from './Components/Checkout/Stateprovider';
+
+import { cartreducer } from './Components/Checkout/reducer';
+import { initialState } from './Components/Checkout/reducer';
+import FinalContext from './Components/Checkout/FinalContext';
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+       
+      
+      <Stateprovider initialState={initialState} cartreducer={cartreducer}>
+        
+        <App/>
+        
+      </Stateprovider>
+      
+    
+      
+    
+    
   </React.StrictMode>
 );
 
