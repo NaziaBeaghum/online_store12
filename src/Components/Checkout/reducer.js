@@ -42,8 +42,12 @@ export const initialState={basket:[] ,
                            ...state,
                            user:action.user
                      }
+        
+                     case 'CLEAR_CART':
                       
-             
+                        return{...state,basket:[]}
+                      
+                     
            default:
             return state 
         

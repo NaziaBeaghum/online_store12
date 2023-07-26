@@ -20,6 +20,14 @@ const Payment = () => {
         prevalue+Number(currvalue.price),0))
        },[basket])
          console.log(total)
+         
+
+         const[confirm,setconfirm]=useState("yes")
+    
+         function clearCart()
+         {
+           return dispatch({type:"CLEAR_CART"})
+         }
     
      
    return (
@@ -74,7 +82,7 @@ const Payment = () => {
           <h4>Only Cash on delivery</h4>
           <div className='card_details'>
             <h4>Order Total:Rs {total} </h4>
-            <button style={{backgroundColor:" #f0c14b",padding:"5px" ,margin:"10px"}} onClick={e=>navigate('/ConfirmOrder')} >Confirm Order </button>
+            <button style={{backgroundColor:" #f0c14b",padding:"5px" ,margin:"10px"}} onClick={e=>{navigate('/ConfirmOrder');clearCart()}} >Confirm Order </button>
           </div>  
        </div>
     </div>

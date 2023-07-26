@@ -40,7 +40,7 @@ function Header() {
                      
                          
                          
-                         <small className='cart_value'>{basket.length}</small>
+                         <small className='cart_value'>{basket?.length}</small>
                          <Link to="Checkout">
                          <span className='cart'><ShoppingCartIcon/></span>
                          </Link>

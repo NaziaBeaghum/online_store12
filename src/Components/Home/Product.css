@@ -49,6 +49,14 @@ border-color:  #a88734 #9c7e31 #846a29;;
 color: #111;
 }
 
+.product_button:active
+{
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #ed9d1d;
+    transform: translateY(4px);
+
+}
 .product_info
 {
 height: 100px;

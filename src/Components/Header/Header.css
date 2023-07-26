@@ -16,10 +16,13 @@
     margin: 10px;
     
 	width: 150px;
-	height: 34px;
+	height: 34px;   
+}
 
+.header_logo>img:hover
+{
     
-    
+    transform: translateY(4px);  
 }
 
 .header_locator
@@ -136,6 +139,10 @@ margin-left: 40px;
 {
 margin-left: 4px;
 
+}
+.option_basket:hover
+{
+    transform: translateY(4px);
 }
 @media screen and (max-width:500px)
             {
