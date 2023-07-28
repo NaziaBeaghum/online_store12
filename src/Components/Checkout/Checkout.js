@@ -22,7 +22,7 @@ function Checkout()
          <img  style={{height:"60px",width:"100vw"}} src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg"  alt=""/>
          <div className='checkout_container'>
            <div className='checkout_left'>
-            <h3>hello,{user?.email}</h3>
+            <h3>hi,{user?.email}</h3>
             <h2 className='checkout_title' >Your shopping Basket:</h2> 
             
             {basket.length>0?
